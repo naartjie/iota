@@ -1,5 +1,20 @@
 # @iota/iota-sdk
 
+## 0.6.0
+
+### Minor Changes
+
+-   e629a39: Aligns the Typescript SDK for the "fixed gas price" protocol changes:
+
+    -   Add typing support for IotaChangeEpochV2 (computationCharge, computationChargeBurned).
+    -   Add Typescript SDK client support for versioned IotaSystemStateSummary.
+
+-   e213517: Make `getChainIdentifier` use the Node RPC.
+
+### Patch Changes
+
+-   3fe0747: Enhance normalizeIotaAddress utility with optional validation
+
 ## 0.5.0
 
 ### Minor Changes
